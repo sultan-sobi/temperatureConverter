@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <div class="celcious">
+                <label for="celcious">Celcious:</label>
+                <input onchange="convertT(event)" type="number" name="celcious" id="celcious">
+            </div>
+    
+            <div class="fahrenheight">
+                <label for="fahrenheight">fahrenheit:</label>
+                <input onchange="convertT(event)" type="number" name="fahrenheight" id="fahrenheight">
+            </div>
+    
+            <div class="kelvin">
+                <label for="kelvin">kelvin:</label>
+                <input onchange="convertT(event)" type="number" name="kelvin" id="kelvin">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
